@@ -1,0 +1,94 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 0 126px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.left-header {
+    font-size: 24px;
+    color:#F9FAF8;
+    font-weight: 600;
+}
+
+.right-header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 18px;
+    gap: 4vh;
+}
+
+.header-links {
+    color: #E5E7EB;
+}
+
+.main {
+    flex: 1;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 108px 126px;    
+    box-sizing: border-box;
+    gap: 12vh;
+}
+
+.hero-left,.hero-right{
+    flex: 1;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    margin-bottom: -18px;
+}
+
+.hero-second {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 108px;
+    border-radius: 8px;
+}
+
+.button {
+    color: #E5E7EB;
+    font-weight: 600;
+}
+
+.hero-right {
+    background-color:#808590;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    color:#E5E7EB
+}
