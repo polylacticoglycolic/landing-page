@@ -226,6 +226,8 @@ a {
     padding: 8px 32px;
     border-radius: 8px;
     font-weight: 700;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .footer {
